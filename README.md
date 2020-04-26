@@ -38,8 +38,8 @@
 
 ## :rocket: Technologies
 
-  - [yarn](https://classic.yarnpkg.com/lang/en/)
-  - [node.JS](https://nodejs.org/en/)
+- [yarn](https://classic.yarnpkg.com/lang/en/)
+- [node.JS](https://nodejs.org/en/)
 
 ## :car: Run the application
 
