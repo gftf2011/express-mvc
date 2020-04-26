@@ -53,8 +53,10 @@
 ## :airplane: Application routes
 
 -   <strong>`GET /projects :`<strong/> <i>Endpoint responsible to read all projects<i/>
+ 
 -   <strong>`GET /projects?id=`<strong/><em>`number`<em><strong>`:`<strong/> <i>Endpoint responsible to retrieve a specific project given its `id`<i/><br/><br/>
 <em>`number : `<em/> Represents the `id` passed in the query string<br/><br/>
+
 -   <strong>`POST /projects :`<strong/> <i>Endpoint responsible to create a project receiving in the request body the project's `title`<i/><br/><br/>
 Request body example below
 ```json
@@ -84,6 +86,7 @@ Request body example below
 
 ## :memo: License
 
-This project is under the MIT license. See the [LICENSE](https://github.com/gftf2011/express-mvc/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/gftf2011/express-mvc/blob/master/LICENSE) for more information
+
 ---
 Made with ♥ by Gabriel Ferrari Tarallo Ferraz :wave: [Get in touch!](https://www.linkedin.com/in/gabriel-ferrari-tarallo-ferraz-7a4218135/)
