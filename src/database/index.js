@@ -5,13 +5,13 @@ const connection = require('../connection');
 const models = [User];
 
 class Database {
-    constructor() {
-        this.init();
-    }
+  constructor() {
+    this.init();
+  }
 
-    init() {
-        models.map(model => model.init(connection));
-    }
+  init() {
+    models.map((model) => model.init(connection));
+  }
 }
 
 module.exports = new Database();
