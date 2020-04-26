@@ -64,9 +64,9 @@ class User {
 
   static async deleteUser(model) {
     try {
-      const { email } = model;
-
       const db = await this.database;
+
+      const { email } = model;
 
       const { rows } = await db.query('DELETE FROM "users" WHERE "email"=$1 RETURNING *', [email]);
 
