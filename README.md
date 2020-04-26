@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Imagem da Logo do Framework node.js" src="https://www.pinclipart.com/picdir/big/102-1024697_related-wallpapers-node-js-logo-png-clipart.png" height="120" /><br><br> Node Project Management API
+  <img alt="Imagem da Logo do Framework express.js" src="https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" height="120" /><br><br> Express Users Management MVC API
 </h1>
 
 <p align="center">
