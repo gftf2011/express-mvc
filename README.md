@@ -87,25 +87,26 @@ Endpoint Return Example:
   "password_hash": "$2y$07$LVJ.b28J6ixiJx13QSGzqe8r9DGUI.biuF.lRIgSf2EXALCtIITci"
 }
 ```
--   <strong>`POST /projects/tasks?id=`<strong/><em>`number`<em/><strong>`:`<strong/> <i>Endpoint responsible to create a task to a specific project given its `id`, also its passed through the request body the `task` for the project<i/><br/><br/>
-<em>`number : `<em/> Represents the `id` passed in the query string<br/><br/>
-Request body example below
 
-```json
-{
-  "task": "task 1"
-}
-```
--   <strong>`PUT /projects?id=`<strong/><em>`number`<em/><strong>`:`<strong/> <i>Endpoint responsible to update a specific project's title given its `id`, also its passed through the request body the new project's `title`<i/><br/><br/>
-<em>`number : `<em/> Represents the `id` passed in the query string<br/><br/>
+-   <strong>`PUT /users :`<strong/> <i>Endpoint responsible to update a specific user's `email` given its `email`, `password` and `new_password`<i/><br/><br/>
 Request body example below
 ```json
 {
-  "title": "Project 2"
+  "email": "example@gmail.com",
+  "password": "123456",
+  "new_password": "1234567"
 }
 ```
--   <strong>`DELETE /projects?id=`<strong/><em>`number`<em/><strong>`:`<strong/> <i>Endpoint responsible to remove a specific project given its `id`.<i/><br/>
-<em>`number : `<em/> Represents the `id` passed in the query string <br/>
+Endpoint Return Example:
+```json
+{
+  "id": "1",
+  "email": "example1@gmail.com",
+  "password_hash": "$2y$07$2yrDXn61CoHH.SMpnYvBS.oc6JeyzB8KDs.7FLoCK7IRThnxmdhBe"
+}
+```
+
+-   <strong>`DELETE /users :`<strong/> <i>Endpoint responsible to remove a specific user given its `email`.<i/><br/>
 
 ## :memo: License
 
