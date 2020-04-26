@@ -54,7 +54,7 @@
 
 ## :airplane: Application routes
 
-- <strong>`GET /users :`<strong/> <i>Endpoint responsible to read all users<i/><br/><br/>
+  - <strong>`GET /users :`<strong/> <i>Endpoint responsible to read all users<i/><br/><br/>
     * Endpoint Return Example:
       ```json
       [
@@ -71,7 +71,7 @@
       ]
       ```
 
-- <strong>`POST /projects :`<strong/> <i>Endpoint responsible to create a user receiving in the request body the user's `email`, which is unique and it's `password`<i/><br/><br/>
+  - <strong>`POST /projects :`<strong/> <i>Endpoint responsible to create a user receiving in the request body the user's `email`, which is unique and it's `password`<i/><br/><br/>
     * Request body example below:
       ```json
       {
@@ -88,7 +88,7 @@
       }
       ```
 
-- <strong>`PUT /users :`<strong/> <i>Endpoint responsible to update a specific user's `password` given its `email`, `password` and `new_password`<i/><br/><br/>
+  - <strong>`PUT /users :`<strong/> <i>Endpoint responsible to update a specific user's `password` given its `email`, `password` and `new_password`<i/><br/><br/>
     * Request body example below
       ```json
       {
@@ -106,7 +106,7 @@
       }
       ```
 
-- <strong>`DELETE /users :`<strong/> <i>Endpoint responsible to remove a specific user given its `email`.<i/><br/><br/>
+  - <strong>`DELETE /users :`<strong/> <i>Endpoint responsible to remove a specific user given its `email`.<i/><br/><br/>
     * Request body example below
       ```json
       {
