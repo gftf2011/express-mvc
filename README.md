@@ -32,6 +32,8 @@
 
 ## :smiley: Purpose
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/57da729bfb76423189a1dd294ffdcb59)](https://app.codacy.com/manual/gftf2011/express-mvc?utm_source=github.com&utm_medium=referral&utm_content=gftf2011/express-mvc&utm_campaign=Badge_Grade_Dashboard)
+
 <p align="center">
   This project was built with intention to explore the MVC application pattern with the use of an interface module for PostgresSQL database! To do it it will be used, as weel, the express framework and exploring its aplication-level middlewares structure.
 </p>
