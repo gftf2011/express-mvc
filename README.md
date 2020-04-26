@@ -54,8 +54,8 @@
 
 ## :airplane: Application routes
 
-- <strong>`GET /users :`<strong/> <i>Endpoint responsible to read all users<i/><br/><br/>
-  * Endpoint Return Example:
+-  <strong>`GET /users :`<strong/> <i>Endpoint responsible to read all users<i/><br/><br/>
+  *  Endpoint Return Example:
     ```json
     [
       {
@@ -70,15 +70,15 @@
       }
     ]
     ```
-- <strong>`POST /projects :`<strong/> <i>Endpoint responsible to create a user receiving in the request body the user's `email`, which is unique and it's `password`<i/><br/><br/>
-  * Request body example below:
+-  <strong>`POST /projects :`<strong/> <i>Endpoint responsible to create a user receiving in the request body the user's `email`, which is unique and it's `password`<i/><br/><br/>
+  *  Request body example below:
     ```json
     {
       "email": "example3@gmail.com",
       "password": "123456"
     }
     ```
-  * Endpoint Return Example:
+  *  Endpoint Return Example:
     ```json
     {
       "id": "3",
@@ -86,8 +86,8 @@
       "password_hash": "$2y$07$LVJ.b28J6ixiJx13QSGzqe8r9DGUI.biuF.lRIgSf2EXALCtIITci"
     }
     ```
-- <strong>`PUT /users :`<strong/> <i>Endpoint responsible to update a specific user's `password` given its `email`, `password` and `new_password`<i/><br/><br/>
-  * Request body example below
+-  <strong>`PUT /users :`<strong/> <i>Endpoint responsible to update a specific user's `password` given its `email`, `password` and `new_password`<i/><br/><br/>
+  *  Request body example below
     ```json
     {
       "email": "example@gmail.com",
@@ -95,7 +95,7 @@
       "new_password": "1234567"
     }
     ```
-  * Endpoint Return Example:
+  *  Endpoint Return Example:
     ```json
     {
       "id": "1",
@@ -103,14 +103,14 @@
       "password_hash": "$2y$07$2yrDXn61CoHH.SMpnYvBS.oc6JeyzB8KDs.7FLoCK7IRThnxmdhBe"
     }
     ```
-- <strong>`DELETE /users :`<strong/> <i>Endpoint responsible to remove a specific user given its `email`.<i/><br/><br/>
-  * Request body example below
+-  <strong>`DELETE /users :`<strong/> <i>Endpoint responsible to remove a specific user given its `email`.<i/><br/><br/>
+  *  Request body example below
     ```json
     {
       "email": "example@gmail.com"
     }
     ```
-  * Endpoint Return Example:
+  *  Endpoint Return Example:
     ```json
     {
       "id": "1",
