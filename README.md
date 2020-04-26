@@ -38,22 +38,22 @@
 
 ## :rocket: Technologies
 
-- [yarn](https://classic.yarnpkg.com/lang/en/)
-- [node.JS](https://nodejs.org/en/)
+  - [yarn](https://classic.yarnpkg.com/lang/en/)
+  - [node.JS](https://nodejs.org/en/)
 
 ## :car: Run the application
 
-  1. node.js installation [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+1. node.js installation [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
-  2. YARN installation [https://classic.yarnpkg.com/en/docs/install/](https://classic.yarnpkg.com/en/docs/install/)
+2. YARN installation [https://classic.yarnpkg.com/en/docs/install/](https://classic.yarnpkg.com/en/docs/install/)
 
-  3. Clone project in your PC :computer:
+3. Clone project in your PC :computer:
 
-  4. Open the project with a text editor and run 'yarn' to download the dependencies
+4. Open the project with a text editor and run 'yarn' to download the dependencies
 
-  5. Postman download [https://www.getpostman.com/downloads/](https://www.getpostman.com/downloads/)
+5. Postman download [https://www.getpostman.com/downloads/](https://www.getpostman.com/downloads/)
 
-  6. Run 'yarn dev' to use the <strong>endpoints<strong/>
+6. Run 'yarn dev' to use the <strong>endpoints<strong/>
 
 ## :airplane: Application routes
 
