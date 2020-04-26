@@ -32,16 +32,21 @@
 
 ## :smiley: Purpose
 
+
 <p align="center">
   This project was built with intention to explore node.js internal modules, which means no Express. So, to fulfill this purpose, the most known modules were used! Among them are the 'fs' - (File System) module from node.js that is used to store our data, in the project it's not used any database management system like Postgres, Oracle OR MongoDB!
 </p>
 
+
 ## :rocket: Technologies
+
 
 - [yarn](https://classic.yarnpkg.com/lang/en/)
 - [node.JS](https://nodejs.org/en/)
 
+
 ## :car: Run the application
+
 
 1. node.js installation [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
 
@@ -55,7 +60,9 @@
 
 6. Run 'yarn dev' to use the <strong>endpoints<strong/>
 
+
 ## :airplane: Application routes
+
 
 - <strong>`GET /projects :`<strong/> <i>Endpoint responsible to read all projects<i/>
 - <strong>`GET /projects?id=`<strong/><em>`number`<em><strong>`:`<strong/> <i>Endpoint responsible to retrieve a specific project given its `id`<i/><br/><br/>
@@ -87,7 +94,10 @@ Request body example below
 - <strong>`DELETE /projects?id=`<strong/><em>`number`<em/><strong>`:`<strong/> <i>Endpoint responsible to remove a specific project given its `id`.<i/><br/>
 <em>`number : `<em/> Represents the `id` passed in the query string <br/>
 
+
 ## :memo: License
+
+
 This project is under the MIT license. See the [LICENSE](https://github.com/gftf2011/express-mvc/blob/master/LICENSE) for more information.
 
 ---
