@@ -88,7 +88,7 @@ Endpoint Return Example:
 }
 ```
 
--   <strong>`PUT /users :`<strong/> <i>Endpoint responsible to update a specific user's `email` given its `email`, `password` and `new_password`<i/><br/><br/>
+-   <strong>`PUT /users :`<strong/> <i>Endpoint responsible to update a specific user's `password` given its `email`, `password` and `new_password`<i/><br/><br/>
 Request body example below
 ```json
 {
@@ -106,7 +106,21 @@ Endpoint Return Example:
 }
 ```
 
--   <strong>`DELETE /users :`<strong/> <i>Endpoint responsible to remove a specific user given its `email`.<i/><br/>
+-   <strong>`DELETE /users :`<strong/> <i>Endpoint responsible to remove a specific user given its `email`.<i/><br/><br/>
+Request body example below
+```json
+{
+  "email": "example@gmail.com"
+}
+```
+Endpoint Return Example:
+```json
+{
+  "id": "1",
+  "email": "example1@gmail.com",
+  "password_hash": "$2y$07$2yrDXn61CoHH.SMpnYvBS.oc6JeyzB8KDs.7FLoCK7IRThnxmdhBe"
+}
+```
 
 ## :memo: License
 
