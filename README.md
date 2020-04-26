@@ -70,7 +70,7 @@ Endpoint Return Example:
   }
 ]
 ```
--  <strong>`POST /projects :`<strong/> <i>Endpoint responsible to create a user receiving in the request body the user's `email`, which is unique and it's `password`<i/><br/><br/>
+-   <strong>`POST /projects :`<strong/> <i>Endpoint responsible to create a user receiving in the request body the user's `email`, which is unique and it's `password`<i/><br/><br/>
 Request body example below:
 ```json
 {
@@ -86,7 +86,7 @@ Endpoint Return Example:
   "password_hash": "$2y$07$LVJ.b28J6ixiJx13QSGzqe8r9DGUI.biuF.lRIgSf2EXALCtIITci"
 }
 ```
--  <strong>`PUT /users :`<strong/> <i>Endpoint responsible to update a specific user's `password` given its `email`, `password` and `new_password`<i/><br/><br/>
+-   <strong>`PUT /users :`<strong/> <i>Endpoint responsible to update a specific user's `password` given its `email`, `password` and `new_password`<i/><br/><br/>
 Request body example below
 ```json
 {
@@ -103,7 +103,7 @@ Endpoint Return Example:
   "password_hash": "$2y$07$2yrDXn61CoHH.SMpnYvBS.oc6JeyzB8KDs.7FLoCK7IRThnxmdhBe"
 }
 ```
--  <strong>`DELETE /users :`<strong/> <i>Endpoint responsible to remove a specific user given its `email`.<i/><br/><br/>
+-   <strong>`DELETE /users :`<strong/> <i>Endpoint responsible to remove a specific user given its `email`.<i/><br/><br/>
 Request body example below
 ```json
 {
