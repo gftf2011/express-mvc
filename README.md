@@ -33,13 +33,14 @@
 ## :smiley: Purpose
 
 <p align="center">
-  This project was built with intention to explore node.js internal modules, which means no Express. So, to fulfill this purpose, the most known modules were used! Among them are the 'fs' - (File System) module from node.js that is used to store our data, in the project it's not used any database management system like Postgres, Oracle OR MongoDB!
+  This project was built with intention to explore the MVC application pattern with the use of an interface module for PostgresSQL database!
 </p>
 
 ## :rocket: Technologies
 
 -   [yarn](https://classic.yarnpkg.com/lang/en/)
 -   [node.JS](https://nodejs.org/en/)
+-   [node-postgres](https://node-postgres.com/)
 
 ## :car: Run the application
 
