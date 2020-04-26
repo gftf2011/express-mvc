@@ -54,7 +54,7 @@
 
 ## :airplane: Application routes
 
--  <strong>`GET /users :`<strong/> <i>Endpoint responsible to read all users<i/><br/><br/>
+  -  <strong>`GET /users :`<strong/> <i>Endpoint responsible to read all users<i/><br/><br/>
 Endpoint Return Example:
 ```json
 [
