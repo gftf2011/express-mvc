@@ -54,16 +54,37 @@
 
 ## :airplane: Application routes
 
--   <strong>`GET /projects :`<strong/> <i>Endpoint responsible to read all projects<i/>
- 
--   <strong>`GET /projects?id=`<strong/><em>`number`<em><strong>`:`<strong/> <i>Endpoint responsible to retrieve a specific project given its `id`<i/><br/><br/>
-<em>`number : `<em/> Represents the `id` passed in the query string<br/><br/>
+-   <strong>`GET /users :`<strong/> <i>Endpoint responsible to read all users<i/><br/><br/>
+Endpoint Return Example:
+```json
+[
+  {
+    "id": "1",
+    "email": "example@gmail.com",
+    "password_hash": "$2y$07$LVJ.b28J6ixiJx13QSGzqe8r9DGUI.biuF.lRIgSf2EXALCtIITci"
+  },
+  {
+    "id": "2",
+    "email": "example2@gmail.com",
+    "password_hash": "$2y$07$LVJ.b28J6ixiJx13QSGzqe8r9DGUI.biuF.lRIgSf2EXALCtIITci"
+  }
+]
+```
 
--   <strong>`POST /projects :`<strong/> <i>Endpoint responsible to create a project receiving in the request body the project's `title`<i/><br/><br/>
-Request body example below
+-   <strong>`POST /projects :`<strong/> <i>Endpoint responsible to create a user receiving in the request body the user's `email`, which is unique and it's `password`<i/><br/><br/>
+Request body example below:
 ```json
 {
-  "title": "Project 1"
+  "email": "example3@gmail.com",
+  "password": "123456"
+}
+```
+Endpoint Return Example:
+```json
+{
+  "id": "3",
+  "email": "example3@gmail.com",
+  "password_hash": "$2y$07$LVJ.b28J6ixiJx13QSGzqe8r9DGUI.biuF.lRIgSf2EXALCtIITci"
 }
 ```
 -   <strong>`POST /projects/tasks?id=`<strong/><em>`number`<em/><strong>`:`<strong/> <i>Endpoint responsible to create a task to a specific project given its `id`, also its passed through the request body the `task` for the project<i/><br/><br/>
