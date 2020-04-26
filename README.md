@@ -33,7 +33,7 @@
 ## :smiley: Purpose
 
 <p align="center">
-  This project was built with intention to explore the MVC application pattern with the use of an interface module for PostgresSQL database!
+  This project was built with intention to explore the MVC application pattern with the use of an interface module for PostgresSQL database! To do it it will be used, as weel, the express framework and exploring its aplication-level middlewares structure.
 </p>
 
 ## :rocket: Technologies
