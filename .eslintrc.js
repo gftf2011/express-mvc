@@ -16,7 +16,7 @@ module.exports = {
   },
   rules: {
     "no-console": ["error", { allow: ["warn", "error"] }],
-    "camelcase": ["error", { "ignoreDestructuring": true }],
+    "camelcase": "off",
     "no-useless-constructor": "off",
     "no-empty-function": ["error", { allow: ["constructors"] }],
     "class-methods-use-this": ["error", { "exceptMethods": ["show", "store", "update", "delete", "init"] }],
