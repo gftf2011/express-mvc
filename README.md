@@ -41,6 +41,7 @@
 -   [yarn](https://classic.yarnpkg.com/lang/en/)
 -   [node.JS](https://nodejs.org/en/)
 -   [node-postgres](https://node-postgres.com/)
+-   [eslint](https://eslint.org/)
 
 ## :car: Run the application
 
