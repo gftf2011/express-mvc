@@ -26,6 +26,7 @@
   <a href="#smiley-purpose">Purpose</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#hammer-architecture">Architecture</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-technologies">Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#whale-docker">Docker</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#car-run-the-application">Run the application</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#airplane-application-routes">Application routes</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
@@ -73,6 +74,16 @@
 4.  Open the project with a text editor and run 'yarn' to download the dependencies
 5.  Postman download [https://www.getpostman.com/downloads/](https://www.getpostman.com/downloads/)
 6.  Run 'yarn dev' to use the <strong>endpoints<strong/>
+
+## :whale: Docker
+
+<p align="center">
+  The use of Docker is recomended, to install it click <a href="https://www.docker.com/products/docker-desktop">here</a>. After installation run the command bellow!
+</p>
+
+```bash
+docker run --name database -e POSTGRES_PASSWORD=docker -p 5432:5432 -d postgres
+```
 
 ## :airplane: Application routes
 
