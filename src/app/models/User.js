@@ -2,9 +2,22 @@ const bcrypt = require('bcryptjs');
 
 let users = [];
 
+const createTable = async (database) => {
+  const db = await database;
+
+  await db.query(
+    `CREATE TABLE IF NOT EXISTS users(
+              id SERIAL PRIMARY KEY,
+              email VARCHAR(100) UNIQUE NOT NULL,
+              password_hash VARCHAR(100) NOT NULL
+          )`,
+  );
+};
+
 class User {
   static init(database) {
     this.database = database;
+    createTable(database);
   }
 
   static async getAll() {
